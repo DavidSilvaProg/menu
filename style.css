@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* zera as configurações padrão*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*muda cor do menu*/
+#menu{
+    background-color: rgb(37, 37, 39);
+}
+
+/*configura a lista ul*/
+#menu ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+	margin: 0 auto;
+}
+
+/*faz os itens da lista ficar em linha*/
+#menu ul li {
+    display: inline;
+}
+
+/*configura os estilos dos links da lista*/
+#menu ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+	text-decoration: none;
+    transition: background .4s;
+}
+
+/*efeito de passar o mouse*/
+#menu ul li a:hover {
+    background-color: rgb(24, 139, 233);
+	
+}
+
+/*configura o ultimo item da lista*/
+#menu ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+
+/*demais configurações*/
+.conteudo{
+	background-color: #4682B4;
+	width: 100%;
+	height: 600px;
+	display: flex;
+    align-items: center;
+}
+
+.rodape{
+	background-color: #363636;
+	width: 100%;
+	height: 400px;
+	display: flex;
+    align-items: center;
+}
+
+p{
+	font-size: 45px;
+	color: 	#DCDCDC;
+	margin: 0 auto;
+}
+
+font {
+	font-size: 25px;
+}
